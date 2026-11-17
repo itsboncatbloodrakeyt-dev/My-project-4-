@@ -6,12 +6,10 @@ using UnityEngine;
 public enum ItemType
 {
     General,
-    Key,
-    Consumable,
-    Equipment
+  
 }
 [CreateAssetMenu(fileName = "NewItem", menuName = "ScriptableObjects/Item")]
-public class ItemData : ScriptableObject
+public class ItemData:ScriptableObject
 {
     public ItemType itemType;
     public string itemName;
@@ -19,5 +17,6 @@ public class ItemData : ScriptableObject
     public int itemPrice;
 
 }
+
 
 

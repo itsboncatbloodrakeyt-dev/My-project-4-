@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
+  - Grabable
+  - Caja Registradora
+  - NPC1
+  - NPC2
+  - NPC3
   layers:
   - Default
   - TransparentFX
